@@ -5,8 +5,6 @@ An end-to-end Machine Learning project that predicts the market value of footbal
 🚀 Key Features
 Data Engineering: Advanced cleaning of the FIFA 21 messy dataset (handling currencies, height/weight conversions, and special characters).
 
-Dimensionality Reduction: Implemented PCA (Principal Component Analysis) to handle high-dimensional feature spaces.
-
 Deep Learning Model: Built and trained a Neural Network using TensorFlow/Keras to predict player values with high accuracy.
 
 RESTful API: Developed a fast and lightweight API using FastAPI to serve model predictions.
@@ -81,3 +79,4 @@ Preprocessing: Applied custom transformations to handle complex string formats i
 Scaling: Used StandardScaler for both features and target variables to ensure optimal neural network convergence.
 
 Deployment: Optimized the container size using a python:3.9-slim base image.
+
